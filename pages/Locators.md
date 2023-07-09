@@ -1,4 +1,4 @@
-- Locators determine *where* features are placed on the Y axis.
+- Locators determine where structures defined by features are placed on the Y axis.
 - Locators are defined in [[FEATURE]] configs under the `locator` [[config key]].
 - Locators iterate through each block within a column of blocks in the world (typically within a constrained Y level range defined by the locator config), and return either *true* or *false*, signifying if the feature's structure should generate at that position or not. True means that a structure will be placed at that block, and vice-versa for false.
 - Locators are defined inside the [[FEATURE]] config like so:
