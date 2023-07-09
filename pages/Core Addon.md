@@ -1,1 +1,1 @@
-- Core addons are addons that are shipped with Terra by default, and provide **core* functionality.
+- Core addons are [addons](Addon) that are shipped with Terra by default, and provide *core* functionality.

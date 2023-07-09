@@ -1099,7 +1099,16 @@
 :nonce 1688897387759
 :italic false
 :text "The SURFACE locator returns `true` i.e the feature will be placed at Y levels where the block is air, and the block below is solid."}}
-:block/updated-at 1688897443088})
+:block/updated-at 1688897443088} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64aa862b-ae95-4c10-be98-397b68f68e7d"}
+:block/parent 
+{:block/uuid #uuid "64aa862b-ae95-4c10-be98-397b68f68e7d"}
+:block/properties 
+{}
+:block/uuid #uuid "64aa8984-39ee-4174-a3d7-871c75f32255"})
 :pages (
 {:block/uuid #uuid "64aa862b-ae95-4c10-be98-397b68f68e7d"
 :block/properties 
@@ -1115,6 +1124,7 @@
 :block/journal? false
 :block/updated-at 1688897443088
 :block/created-at 1688897067521
+:block/format :markdown
 :block/type "whiteboard"
 :block/name "surface locator diagram"
 :block/original-name "SURFACE Locator Diagram"})}
