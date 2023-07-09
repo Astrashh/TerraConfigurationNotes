@@ -1,7 +1,7 @@
 - This site is an unofficial knowledge base for creating Terra config packs. You can find the official documentation at https://terra.polydev.org/.
 - You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes.
 - ## Why Unofficial?
-- The current official documentation takes more time to maintain. Logseq makes it easy to
+- Official documentation with higher standards takes more time to maintain, a more casual informal format  Logseq makes it easy to quickly string together new pages
 - # Contents
 -
 - [[Feature Config]]
