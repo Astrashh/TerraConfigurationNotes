@@ -1,1 +1,1 @@
-- This site
+- This site is a personal knowledge base for creating Terra config packs. You can find
