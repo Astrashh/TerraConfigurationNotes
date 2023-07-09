@@ -13,9 +13,16 @@ alias:: FEATURE
   ```yaml
   type: FEATURE
   id: MY_FEATURE
-  locator:
+  
   distributor:
--
+    # Distributor config
+  
+  locator:
+    # Locator config
+  
+  structures:
+    # List of structures
+  ```
 - {{embed [[Feature Structure List]]}}
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
