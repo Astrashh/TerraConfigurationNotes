@@ -1,1 +1,2 @@
-- The following list
+- The following list contains all documented locators. For a comprehensive list you can refer to the locator registrations in the source code [here](https://github.com/PolyhedralDev/Terra/blob/master/common/addons/config-locators/src/main/java/com/dfsek/terra/addons/feature/locator/LocatorAddon.java).
+- [[SURFACE Locator]]
