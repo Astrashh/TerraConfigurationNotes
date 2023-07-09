@@ -9,7 +9,13 @@ alias:: FEATURE
 	- [[Feature Structure List]]
 	- [[Locators]]
 	- [[Distributors]]
-- The
+- The skeleton of a feature config may look like this:
+  ```yaml
+  type: FEATURE
+  id: MY_FEATURE
+  locator:
+  distributor:
+-
 - {{embed [[Feature Structure List]]}}
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
