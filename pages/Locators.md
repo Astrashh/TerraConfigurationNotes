@@ -8,4 +8,4 @@
 - There are several locator types to choose from, each with different behaviors that determine how your feature should be placed on the Y axis.
 - {{embed [[SURFACE Locator]]}}
 -
-- Locators are implemented in the `config-locators` [[Core Addon]], make sure to add this as an addon dependency ([[How to add an addon as a dependency]]). You can find the source code for the addon here: https://github.com/PolyhedralDev/Terra/tree/master/common/addons/config-locators/
+- Locators are implemented in the `config-locators` [[Core Addon]], make sure to add this as an addon dependency ([?](How to add an addon as a dependency)). You can find the source code for the addon here: https://github.com/PolyhedralDev/Terra/tree/master/common/addons/config-locators/
