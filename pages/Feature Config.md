@@ -1,7 +1,5 @@
 alias:: FEATURE
 
-- {{embed [[Distributors]]}}
+- Feature configs define
 - {{embed [[Locators]]}}
--
--
--
+- {{embed [[Distributors]]}}
