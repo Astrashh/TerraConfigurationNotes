@@ -6,8 +6,7 @@
 - ## Contributions
 - This is not intended to be a collaborative project (but may move in that direction in the future), however requests for information via the repository [issue tracker](https://github.com/Astrashh/TerraConfigurationNotes/issues) are appreciated!
 - You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes.
-- If you do wish to contribute anyway, [Logseq](https://logseq.com/) is the tool, you can simply clone the repository and open it in Logseq and any changes will be represented in the plain text files.
+- If you do wish to contribute anyway, [Logseq](https://logseq.com/) is the tool used to edit, you can simply clone the repository and open it in Logseq and any changes will be represented in the plain text files.
 - # Contents
 -
 - [[Feature Config]]
--
