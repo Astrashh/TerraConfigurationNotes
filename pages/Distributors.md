@@ -1,2 +1,3 @@
+- Distributors are defined in [[FEATURE]] configs under the `locator` [[config key]].
 - Distributors determine which columns in the world [[Locators]] should operate in.
-- Distributors operate in 2D, for each set of 2D coordinates, a locator will determine
+- Distributors operate in 2D, for each set of 2D coordinates, a locator will return either *true* or *false*, where true means the
