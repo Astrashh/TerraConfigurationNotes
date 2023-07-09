@@ -1,5 +1,5 @@
 - This site is an unofficial knowledge base for creating Terra config packs. You can find the official documentation at https://terra.polydev.org/.
-- You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes.
+- You can find the source for this knowledge base here: https://github.com/Astrashh/TerraConfigurationNotes. It is recommended to pull the repository and use
 - ## Why Unofficial?
 - Official documentation with higher standards takes more time and effort to maintain, both of which have been barriers to producing a sufficient *quantity* of configuration information to be useful.
   
@@ -7,5 +7,3 @@
 - # Contents
 -
 - [[Feature Config]]
--
--
