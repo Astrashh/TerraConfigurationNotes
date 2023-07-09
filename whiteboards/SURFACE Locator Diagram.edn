@@ -1070,7 +1070,7 @@
 :nonce 1688897371167
 :isComplete true}}
 :block/updated-at 1688897382227} 
-{:block/created-at 1688897443088
+{:block/created-at 1688897996433
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -1083,7 +1083,7 @@
 :scaleLevel "md"
 :fill ""
 :type "text"
-:size [167.15129742982805 247.49350604734224]
+:size [195.37943059062576 236.73606595999382]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -1092,14 +1092,14 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [45.17037568265761 422.2711892035292]
+:point [15.632621804787846 422.2711892035292]
 :lineHeight 1.2
 :fontSize 20
 :parentId "64aa862b-ae95-4c10-be98-397b68f68e7d"
-:nonce 1688897387759
+:nonce 1688897387999
 :italic false
-:text "The SURFACE locator returns `true` i.e the feature will be placed at Y levels where the block is air, and the block below is solid."}}
-:block/updated-at 1688897443088} 
+:text "The SURFACE locator returns true i.e the feature will be placed at Y levels where the block is air, and the block below is solid."}}
+:block/updated-at 1688897996433} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -1115,14 +1115,14 @@
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
 {:id "64aa862b-ae95-4c10-be98-397b68f68e7d"
-:name "surface locator"
+:name "surface locator diagram"
 :bindings 
 {}
 :nonce 1
 :assets []
 :shapes-index ("9612d1a0-1e40-11ee-a5c6-f521051e9c39" "27341910-1e40-11ee-a5c6-f521051e9c39" "28c8e9e0-1e40-11ee-a5c6-f521051e9c39" "30646490-1e40-11ee-a5c6-f521051e9c39" "30e26e30-1e40-11ee-a5c6-f521051e9c39" "317908e0-1e40-11ee-a5c6-f521051e9c39" "3209fe40-1e40-11ee-a5c6-f521051e9c39" "32a9c0b0-1e40-11ee-a5c6-f521051e9c39" "333007b0-1e40-11ee-a5c6-f521051e9c39" "33b8bfb0-1e40-11ee-a5c6-f521051e9c39" "4c6aec40-1e40-11ee-a5c6-f521051e9c39" "4e6116f0-1e40-11ee-a5c6-f521051e9c39" "4fb4c010-1e40-11ee-a5c6-f521051e9c39" "57774ac0-1e40-11ee-a5c6-f521051e9c39" "59e08290-1e40-11ee-a5c6-f521051e9c39" "5a525730-1e40-11ee-a5c6-f521051e9c39" "5aa188a0-1e40-11ee-a5c6-f521051e9c39" "5ae177d0-1e40-11ee-a5c6-f521051e9c39" "5b2585b0-1e40-11ee-a5c6-f521051e9c39" "5d73e280-1e40-11ee-a5c6-f521051e9c39" "5ebf2730-1e40-11ee-a5c6-f521051e9c39" "6000a7e0-1e40-11ee-a5c6-f521051e9c39" "62c7b720-1e40-11ee-a5c6-f521051e9c39" "63356d10-1e40-11ee-a5c6-f521051e9c39" "63849e80-1e40-11ee-a5c6-f521051e9c39" "63eeaaf0-1e40-11ee-a5c6-f521051e9c39" "6438d350-1e40-11ee-a5c6-f521051e9c39" "86207b80-1e40-11ee-a5c6-f521051e9c39" "8774e7f0-1e40-11ee-a5c6-f521051e9c39" "880e68d0-1e40-11ee-a5c6-f521051e9c39" "88f0b280-1e40-11ee-a5c6-f521051e9c39" "898db5d0-1e40-11ee-a5c6-f521051e9c39" "8cb7a590-1e40-11ee-a5c6-f521051e9c39" "9079b6a0-1e40-11ee-a5c6-f521051e9c39" "91bf07e0-1e40-11ee-a5c6-f521051e9c39" "98f72ce0-1e40-11ee-a5c6-f521051e9c39" "9b946d00-1e40-11ee-a5c6-f521051e9c39" "9d55cc10-1e40-11ee-a5c6-f521051e9c39" "9db0e460-1e40-11ee-a5c6-f521051e9c39" "9e78ef50-1e40-11ee-a5c6-f521051e9c39" "9ee25f80-1e40-11ee-a5c6-f521051e9c39" "ac6674c0-1e40-11ee-a5c6-f521051e9c39" "acb000e0-1e40-11ee-a5c6-f521051e9c39" "ad076fb0-1e40-11ee-a5c6-f521051e9c39" "ad746250-1e40-11ee-a5c6-f521051e9c39" "adc1bf00-1e40-11ee-a5c6-f521051e9c39" "ae9562b0-1e40-11ee-a5c6-f521051e9c39" "aeddb650-1e40-11ee-a5c6-f521051e9c39" "b0b5f8c0-1e40-11ee-a5c6-f521051e9c39" "b1220100-1e40-11ee-a5c6-f521051e9c39" "b2317530-1e40-11ee-a5c6-f521051e9c39" "bbc31a90-1e40-11ee-a5c6-f521051e9c39")}}
 :block/journal? false
-:block/updated-at 1688897443088
+:block/updated-at 1688897996433
 :block/created-at 1688897067521
 :block/format :markdown
 :block/type "whiteboard"
