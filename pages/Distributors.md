@@ -1,3 +1,3 @@
 - Distributors are defined in [[FEATURE]] configs under the `distributor` [[config key]].
 - Distributors determine which columns in the world [[Locators]] should operate in.
-- Distributors operate in 2D, for each set of 2D coordinates, a locator will return either *true* or *false*, where true means the locator will be applied for the column of blocks to determine where a [[Structure]] can generate.
+- Distributors operate in 2D. For each set of 2D coordinates within the biome, a locator will return either *true* or *false*, where true means the locator will be applied for the column of blocks to determine where a [[Structure]] can generate.
