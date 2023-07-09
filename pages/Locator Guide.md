@@ -1,1 +1,2 @@
-- Locators are
+- Locators determine how features are placed on the Y axis.
+- Locators are defined in
