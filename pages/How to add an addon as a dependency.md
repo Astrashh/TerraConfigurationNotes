@@ -7,5 +7,5 @@
 	- Example:
 	  ```yaml
 	  addons:
-	- config-locator: "1.+"
-	-
+	    config-locator: "1.+"
+	  ```
