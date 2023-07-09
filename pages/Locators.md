@@ -2,5 +2,5 @@
 - Locators are defined in [[FEATURE]] configs under the `locator` key.
 - ```yaml
   locator:
-    
+    type: ...
   ```
