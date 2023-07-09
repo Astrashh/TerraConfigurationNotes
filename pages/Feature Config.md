@@ -1,5 +1,5 @@
 alias:: FEATURE
 
-- Feature configs define
+- Feature configs define a collection of [[Structures]]
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
