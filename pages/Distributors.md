@@ -1,1 +1,2 @@
-- Distributors determine which columns in the world
+- Distributors determine which columns in the world [[Locators]] should operate in.
+- Distributors operate in 2D, for each set of 2D coordinates, a locator will determine
