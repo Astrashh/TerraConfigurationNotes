@@ -4,6 +4,6 @@ alias:: FEATURE
 	- A collection of [[Structures]] and
 	- *Where* those structures should be placed.
 - Feature configs allow you to define a placement pattern of a collection of [[Structures]], which are used inside [[BIOME]] configs.
-- For example, you may have a couple tree variations that you want to place in a biome called `FOREST`, these tree variations would be defined . Then you have a couple rules on where these tree variations are allowed to be placed.
+- For example, you may have a couple tree variations that you want to place in a biome called `FOREST` A feature config would contain a list of the. Then you have a couple rules on where these tree variations are allowed to be placed.
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
