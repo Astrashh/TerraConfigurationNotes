@@ -1,1 +1,1 @@
-- This site is a personal knowledge base for creating Terra config packs. You can find
+- This site is an unofficial knowledge base for creating Terra config packs. You can find the official documentation at https://terra.polydev.org/.
