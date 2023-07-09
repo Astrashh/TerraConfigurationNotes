@@ -23,6 +23,5 @@ alias:: FEATURE
   structures:
     # List of structures
   ```
-- {{embed [[Feature Structure List]]}}
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
