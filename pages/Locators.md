@@ -1,4 +1,5 @@
-- Locators determine how features are placed on the Y axis.
+- Locators determine *where* features are placed on the Y axis.
+- For each
 - Locators are defined in [[FEATURE]] configs under the `locator` key.
 - ```yaml
   locator:
