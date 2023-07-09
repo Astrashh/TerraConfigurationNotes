@@ -10,4 +10,4 @@
   where the distributor config is indented in-line with the `type` key.
 - Use the `type` key to choose which distributor to use in your [[FEATURE]] config.
 - There are several distributors to choose from, each determining which columns to place features in differently.
--
+- []()
