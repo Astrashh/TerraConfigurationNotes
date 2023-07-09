@@ -8,6 +8,7 @@ alias:: FEATURE
 	- `tree_small`
 	- `tree_medium`
 	- `tree_big`
-- A feature config would contain a list of references to these tree structures to be placed in the biome. So you would list out  Then you have a couple rules defined in the feature config on where these tree variations are allowed to be placed. These rules may be that the structures can only be placed in air blocks that are on top of dirt and grass blocks, and that the structures should be placed in a grid-like fashion.
+- A feature config would contain this list of references to these tree structures to be placed in the biome. Then you have a couple rules defined in the feature config on where these tree variations are allowed to be placed. These rules may be that the structures can only be placed in air blocks that are on top of dirt and grass blocks, and that the structures should be placed in a grid-like fashion.
+-
 - {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
