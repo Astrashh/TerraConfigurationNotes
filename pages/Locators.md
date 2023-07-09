@@ -6,7 +6,7 @@
   locator:
     type: ...
   ```
-  where the locator config is indented in-line with the `type` [[config key]] .
+  where the locator config is indented in-line with the `type` key.
 - Use the `type` key to choose which locator to use in your [[FEATURE]] config.
 - There are several locator types to choose from, each with different behaviors that determine how your feature should be placed on the Y axis.
 - Here is one example of a locator:
