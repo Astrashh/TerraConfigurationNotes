@@ -2,8 +2,8 @@
 - Distributors determine which columns in the world the structures can be placed in / which columns [[Locators]] should operate in.
 - Distributors operate in 2D. For each set of 2D coordinates within the biome, a distributor will return either *true* or *false*, where true means the locator will be applied for the column of blocks to determine where a [[Structure]] can generate.
 - {{embed [[Distributor Diagram]]}}
-- A distributor is defined inside the [[FEATURE]] config like so:
+- A distributor is defined inside a [[FEATURE]] config like so:
   ```yaml
-  locator:
+  distributor:
     type: ...
   ```
