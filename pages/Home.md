@@ -8,6 +8,4 @@
 - You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes.
 - If you do wish to contribute anyway, [Logseq](https://logseq.com/) is the tool used to edit, you can simply clone the repository locally and open it in Logseq and any changes will be represented in the plain text files.
 - # Contents
--
-- [[Questions & Answers]]
 - [[Feature Config]]
