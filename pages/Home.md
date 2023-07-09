@@ -4,7 +4,7 @@
   
   This site serves as a more casual informal format, where information can be stringed together in a 'quantity over quality' format to be practically usable for config development where official documentation is lacking.
 - ## Contributions
-- You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes, notes are produced
+- You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes, [Logseq](https://logseq.com/) is the 'IDE' used to write notes here, you can simply import the repository as
 - # Contents
 -
 - [[Feature Config]]
