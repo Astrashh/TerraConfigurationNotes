@@ -4,7 +4,7 @@
   
   This site serves as a more casual informal format, where information can be stringed together to be practically usable for config development where official documentation is lacking.
 - ## Contributing
-- You can find the source for this knowledge base here: https://github.com/Astrashh/TerraConfigurationNotes.
+- You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes. To contribute, pull the repository locally and open it with
 - # Contents
 -
 - [[Feature Config]]
