@@ -1,0 +1,74 @@
+{:blocks (
+{:block/content "```yaml\ndistributor:\n  type: PADDED_GRID\n  width: 6\n  padding: 2\n  salt: 2347 # Random number, acts like the 'seed'\n```"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "64ab48f6-04e9-44bc-8971-6cd44b729c53"}
+:block/parent 
+{:block/uuid #uuid "64ab48f6-04e9-44bc-8971-6cd44b729c53"}
+:block/properties 
+{}
+:block/uuid #uuid "64ab496c-75c5-4de5-a4cc-55e9e4ea7374"} 
+{:block/created-at 1688947059300
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "64ab496c-75c5-4de5-a4cc-55e9e4ea7374"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 201.71875]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5df3cf30-1eb4-11ee-beed-2d24a04de3d3"
+:noFill false
+:point [357.5 298.5]
+:parentId "64ab48f6-04e9-44bc-8971-6cd44b729c53"
+:collapsedHeight 0
+:nonce 1688947051480}}
+:block/updated-at 1688947059300} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "pencil"
+:points [[1.6695884464479605 3.339176892895921 0.5] [1.6695884464479605 4.173971116119844 0.5] [1.6695884464479605 5.0087653393438245 0.5] [1.6695884464479605 5.843559562567805 0.5] [1.6695884464479605 6.678353785791785 0.5] [2.5043826696719407 6.678353785791785 0.5] [3.339176892895921 5.0087653393438245 0.5] [3.339176892895921 3.339176892895921 0.5] [3.339176892895921 1.6695884464479605 0.5] [3.339176892895921 0 0.5] [2.5043826696719407 0 0.5] [1.6695884464479605 0.8347942232239802 0.5] [0.8347942232239802 2.5043826696719407 0.5] [0 3.339176892895921 0.5] [0 4.173971116119844 0.5] [0 5.0087653393438245 0.5] [0.8347942232239802 5.0087653393438245 0.5]]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "73b9b140-1eb4-11ee-beed-2d24a04de3d3"
+:noFill true
+:point [831.3725302612904 258.0018373820853]
+:parentId "64ab48f6-04e9-44bc-8971-6cd44b729c53"
+:nonce 1688947087975
+:isComplete true}}
+:block/updated-at 1688947088626})
+:pages (
+{:block/uuid #uuid "64ab48f6-04e9-44bc-8971-6cd44b729c53"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "64ab48f6-04e9-44bc-8971-6cd44b729c53"
+:name "padded_grid distributor example"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("5df3cf30-1eb4-11ee-beed-2d24a04de3d3" "73b9b140-1eb4-11ee-beed-2d24a04de3d3")}}
+:block/updated-at 1688947088625
+:block/created-at 1688946934499
+:block/type "whiteboard"
+:block/name "padded_grid distributor example"
+:block/original-name "padded_grid distributor example"})}
