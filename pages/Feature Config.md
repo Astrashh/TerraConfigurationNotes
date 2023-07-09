@@ -23,5 +23,5 @@ alias:: FEATURE
   structures:
     # List of structures
   ```
-- {{embed [[Locators]]}}
 - {{embed [[Distributors]]}}
+- {{embed [[Locators]]}}
