@@ -6,6 +6,7 @@
 - ## Contributions
 - You can find the source for this knowledge base here https://github.com/Astrashh/TerraConfigurationNotes.
 - [Logseq](https://logseq.com/) is the 'IDE' used to edit the knowledge base, you can simply clone the repository and open it in Logseq to make edits.
+- This is not intended to be primarily a collaborative project, however requests for information via the repository issue
 - # Contents
 -
 - [[Feature Config]]
