@@ -1,0 +1,2 @@
+- 'The pipeline' is a [[Biome Provider]] that distributes biomes procedurally in 2D.
+- The name pipeline comes from the way
