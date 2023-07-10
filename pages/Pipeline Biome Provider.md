@@ -90,32 +90,32 @@
   
   biomes:
     type: PIPELINE
-    resolution: 4
-    blend:
+    resolution: 4 # Sample in 4x4 for a bit of a performance boost
+    blend: # Blend with some white noise so the 4x4 grid isn't as apparent
       amplitude: 1.5
       sampler:
         type: WHITE_NOISE
     pipeline:
-      source:
+      source: # Start with an initial mix of plains and forest
         type: SAMPLER
         biomes:
           - PLAINS: 1
           - FOREST: 1
-        sampler:
+        sampler: # This sampler determines the 'pattern' the two biomes will follow
           type: OPEN_SIMPLEX_2
           frequency: 0.005
       stages:
-        - type: REPLACE
+        - type: REPLACE # Replace plains with itself and more rare sunflower plains
           from: PLAINS
           to: 
             - SELF: 10
             - SUNFLOWER_PLAINS: 1
-          sampler:
+          sampler: # Cellular noise is used to create distinct patches of sunflower plains
             type: CELLULAR
             frequency: 0.01
             salt: 1
             
-        - type: REPLACE
+        - type: REPLACE # Similar idea as plains but for forest
           from: FOREST
           to:
             - SELF: 10
@@ -123,8 +123,11 @@
           sampler:
             type: CELLULAR
             frequency: 0.01
-            salt: 2
-  
-  ...
+            salt: 2 # Note the salt is different here to the plains sampler, this 
+                 	  # is done so the patterns aren't identical, otherwise flower
+                    # forests would always be next to sunflower plains at the border
+                    # between plains and forest because the samplers would be identical.
+   
+   ...
   ```
 -
