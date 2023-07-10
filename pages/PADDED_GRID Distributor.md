@@ -1,4 +1,4 @@
-- The `PADDED_GRID` (distributor)[Distributors] segments the world into a grid of cells, and returns true for a single
+- The `PADDED_GRID` (distributor)[Distributors] segments the world into a grid of cells, and returns true for a single block within each cell. Grid cells may have padding which prevents structures from the feature from being placed directly
 - Example config
   ```yaml
   type: FEATURE
