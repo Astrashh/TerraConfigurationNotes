@@ -1,5 +1,5 @@
 - The `PADDED_GRID` [distributor](Distributors) segments the world into a grid of cells, and returns true for a single position within each cell. Grid cells may have padding which has the utility of preventing structures from being placed too close to each other.
-- The distributor is good for use in placing
+- The distributor is good for use in placing structures such as trees, padding may be used so trees are guaranteed to have spacing between them.
 - Example config
   ```yaml
   type: FEATURE
