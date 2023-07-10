@@ -9,3 +9,4 @@
 - If you do wish to contribute anyway, [Logseq](https://logseq.com/) is the tool used to edit, you can simply clone the repository locally and open it in Logseq and any changes will be represented in the plain text files.
 - # Contents
 - [[Feature Config]]
+- [[Pipeline Biome Provider]]
