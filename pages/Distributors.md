@@ -12,3 +12,4 @@
 - There are several distributors to choose from, each determining which columns to place features in differently.
 - Here is one example of a distributor:
 - {{embed [[PADDED_GRID Distributor]]}}
+- {{embed [[Distributor List]]}}
