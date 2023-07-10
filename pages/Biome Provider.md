@@ -1,0 +1,2 @@
+- A biome provider is a configuration that determines how / where biomes get placed in the world.
+-
