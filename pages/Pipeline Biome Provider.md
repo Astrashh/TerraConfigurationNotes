@@ -1,2 +1,2 @@
 - 'The pipeline' is a [[Biome Provider]] that distributes biomes procedurally in 2D.
-- The name pipeline comes from the way it is configured, in that there is a *source* that gets passed through a set of stages that each provide modifications
+- The name pipeline comes from the way it is configured, that there is a *source* that gets passed through a set of stages that each provide successive modifications . You can think of this as a
