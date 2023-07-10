@@ -13,3 +13,4 @@
 - Here is one example of a distributor:
 - {{embed [[PADDED_GRID Distributor]]}}
 - {{embed [[Distributor List]]}}
+- Distributors are implemented in the `config-distributors` [[Core Addon]], make sure to add this as an addon dependency ([?](How to add an addon as a dependency)) in order to utilize the default distributors. You can find the source code for the addon here: https://github.com/PolyhedralDev/Terra/tree/master/common/addons/config-distributors
