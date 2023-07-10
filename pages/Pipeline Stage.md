@@ -1,0 +1,3 @@
+- Pipeline stages come in various types, signified by the `type` key, each with different functionalities.
+- An example of a pipeline stage:
+- {{embed [[REPLACE Pipeline Stage]]}}

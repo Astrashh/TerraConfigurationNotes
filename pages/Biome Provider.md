@@ -10,5 +10,3 @@
     # Rest of biome provider configuration
   ...
   ```
--
--
