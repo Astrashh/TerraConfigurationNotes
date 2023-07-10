@@ -1,4 +1,4 @@
-- The `PADDED_GRID` [[Distributors]]
+- The `PADDED_GRID` (distributor)[Distributors] segments the world into a grid of cells, and returns true for a single
 - Example config
   ```yaml
   type: FEATURE
