@@ -1,0 +1,1 @@
+- See the [official documentation](https://terra.polydev.org/config/documentation/image/color-sampler.html)
