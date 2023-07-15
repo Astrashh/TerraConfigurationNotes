@@ -1,7 +1,9 @@
-- Base image related functionality is introduced by the `library-image` addon, [add that as a dependency](How to add an addon as a dependency) to get started working with images.
+- Base image related functionality is introduced by the `library-image` [[Addon]], [add that as a dependency](How to add an addon as a dependency) to get started working with images.
 - You can find the official documentation for image related functionality [here](https://terra.polydev.org/config/documentation/image/index.html).
 - ## Distributing biomes using an image
-- The most basic method of distributing biomes via image(s) is by utilizing the `IMAGE` [[Biome Provider]] which is implemented by the `biome-provider-image-v2` addon. Make sure you [add that as a dependency](How to add an addon as a dependency) before continuing.
+- ### Image Biome Provider
+- The most basic method of distributing biomes via image(s) is by utilizing the `IMAGE` [[Biome Provider]] which is implemented by the `biome-provider-image-v2` [[Addon]]. Make sure you [add that as a dependency](How to add an addon as a dependency) before continuing.
+- If your pack already uses the legacy `biome-provider-image` addon, make sure to remove it as a dependency, otherwise you will get a conflict for the `IMAGE` type which both addons use!
 - {{embed [[Biome Provider]]}}
 - Set the `type` key to `IMAGE`.
 - The skeleton of the image biome provider looks like so:
@@ -107,3 +109,5 @@
   
   ...
   ```
+- ### Image Pipeline Source
+- The `IMAGE` [[Pipeline Source]] is provided by the `pipeline-image` [[Addon]]. It is defined under the `source` key of a [[Pipeline Biome Provider]], and is configured the same as the image biome provider with the addition of being able to utilize [[Placeholder Biome]]s in addition to regular biome IDs.

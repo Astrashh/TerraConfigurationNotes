@@ -11,3 +11,4 @@
 - [[Feature Config]]
 - [[Pipeline Biome Provider]]
 - [[Working with images]]
+- [[Structure Handling]]
