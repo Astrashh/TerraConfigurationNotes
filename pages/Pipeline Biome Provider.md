@@ -2,6 +2,7 @@
   {{embed [[Biome Provider]] }}
 - The pipeline biome provider is implemented by the `biome-provider-pipeline-v2` [[Addon]] and uses the `PIPELINE` key which should be defined as the biome provider `type`, make sure to [add the addon as a dependency](How to add an addon as a dependency) if you wish to use it.
 - The name pipeline comes from the way it is configured, there is a *source* produces an initial biome layout, which then gets passed through a set of *stages* that each provide successive modifications to the biome layout.
+- The things being manipulated inside the pipeline are [[Pipeline Biome]]s (not to be confused with regular Terra [[Biome]]s), this distinction mainly relevant when it comes to [[Placeholder Biome]]s.
 - {{embed [[Pipeline Diagram]]}}
 - The config contains a handful of top level [[config key]]s:
 	- `resolution` - Optional, the quality at which the pipeline samples at. Higher resolutions = larger samples = lower quality = faster generation.

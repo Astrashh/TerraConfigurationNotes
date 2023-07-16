@@ -1,4 +1,6 @@
 - Placeholder biomes are special names used in the [[Pipeline Biome Provider]] as stand-ins for real biome IDs.
+- A placeholder biome is simply a label, and does not have any additional special characteristics by itself. It is only useful as something that can be manipulated within the pipeline.
+- Placeholder biomes do not represent real biomes.
 - Placeholder biomes are created simply by declaring a [[String]] that is not a valid biome ID anywhere a [[Pipeline Biome]] is accepted. As a convention, placeholder biomes should be defined in all lowercase with hyphens in place of spaces to easily distinguish them from biome IDs which are all uppercase.
 - The main use case for placeholder biomes is when you wish to use labels to distribute a particular area or pattern rather than real biomes. In the [[Overworld Config Pack]], placeholder biomes are used to distribute climate areas which are then later replaced with real biomes.
 - This is useful for organization of zones to be manipulated by pipeline stages, as using the placeholder as a label for a zone makes it clear what that zone between stages is supposed to be. Rather than for example using a `PLAINS` biome as meaning 'temperate zone', placeholder biomes simply let you define a `temperate` label that would act as though you were distributing a regular biome.
