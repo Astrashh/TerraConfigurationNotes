@@ -25,3 +25,4 @@ alias:: FEATURE
   ```
 - {{embed [[Distributors]]}}
 - {{embed [[Locators]]}}
+- {{embed [[Feature Generation Stages]]}}
