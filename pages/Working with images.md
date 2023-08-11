@@ -111,3 +111,13 @@
   ```
 - ### Image Pipeline Source
 - The `IMAGE` [[Pipeline Source]] is provided by the `pipeline-image` [[Addon]]. It is defined under the `source` key of a [[Pipeline Biome Provider]], and is configured the same as the image biome provider with the addition of being able to utilize [[Placeholder Biome]]s in addition to regular biome IDs.
+- ### Anti-aliasing in images
+- When using images to distribute discrete items such as biomes (as opposed to continuous things like heightmaps), any kind of anti-aliasing could be interpreted as an unexpected biome, so you do not want any kind of smoothing, shadows, blending etc in your image.
+- For example, every grey pixel between the white and black areas could be interpreted as a completely different unintended biome:
+	- ![image.png](../assets/image_1691716917053_0.png){:height 150, :width 150}
+- Instead you want hard lines like this:
+	- ![image.png](../assets/image_1691716926248_0.png){:height 150, :width 150}
+- In a case like this you might want an ocean next to a desert:
+	- ![image.png](../assets/image_1691716937231_0.png){:height 150, :width 150}
+- but zooming in and looking at the actual pixel color between the two, it could end up matching something like a snowy biome which has been configured to use a grey color, and then you end up unintentionally sandwiching a snowy biome between your desert and ocean:
+	- ![image.png](../assets/image_1691716945469_0.png){:height 150, :width 150}
