@@ -70,6 +70,7 @@
 			          sampler:
 			            type: CELLULAR
 			            frequency: 0.01
+			            return: CellValue
 			            salt: 1
 			            
 			        - type: REPLACE
@@ -80,6 +81,7 @@
 			          sampler:
 			            type: CELLULAR
 			            frequency: 0.01
+			            return: CellValue
 			            salt: 2
 			  ...
 			  ```
@@ -114,6 +116,7 @@
           sampler: # Cellular noise is used to create distinct patches of sunflower plains
             type: CELLULAR
             frequency: 0.01
+            return: CellValue
             salt: 1
             
         - type: REPLACE # Similar idea as plains but for forest
@@ -124,6 +127,7 @@
           sampler:
             type: CELLULAR
             frequency: 0.01
+            return: CellValue
             salt: 2 # Note the salt is different here to the plains sampler, this 
                  	  # is done so the patterns aren't identical, otherwise flower
                     # forests would always be next to sunflower plains at the border

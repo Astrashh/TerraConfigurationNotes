@@ -11,5 +11,6 @@
   sampler:
     type: CELLULAR
     frequency: 0.01
+    return: CellValue
   ```
 - The example would replace all instances of the `FOREST` [[Pipeline Biome]] with occasional patches of `FOREST_DENSE` and `FLOWER_FOREST`.
