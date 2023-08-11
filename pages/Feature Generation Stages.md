@@ -50,7 +50,12 @@
   ```
 - Ordering of feature generation stages is determined by how they are defined in the [[Config Pack Manifest]], so it does not matter how you order them inside your [[Biome Config]]s.
 - If features should generate in a certain order, they should be placed in separate stages, as ordering of features within the same stage does not reflect generation order.
-- When it comes to [[Config Inheritance]], note that each stage in a [[Biome Config]] is considered a separate parameter, e.g. the stages defined above would add two separate parameters `features.the-first-feature-stage` and `features.another-feature-stage` rather than one singular parameter `features`.
+- When it comes to [[Config Inheritance]], note that each stage in a [[Biome Config]] is considered a separate parameter, e.g. the stages defined above would add two separate parameters:
+  
+  * `features.the-first-feature-stage`
+  * `features.another-feature-stage`
+  
+  rather than one singular parameter `features`.
 	- For example for the following configs:
 	  ```yaml
 	  id: PARENT
