@@ -4,7 +4,7 @@
 - The name pipeline comes from the way it is configured, there is a *source* produces an initial biome layout, which then gets passed through a set of *stages* that each provide successive modifications to the biome layout.
 - The things being manipulated inside the pipeline are [[Pipeline Biome]]s (not to be confused with regular Terra [[Biome]]s), this distinction mainly relevant when it comes to [[Placeholder Biome]]s.
 - {{embed [[Pipeline Diagram]]}}
-- The config contains a handful of top level [[config key]]s:
+- The config contains a handful of top level [[config parameter]]s:
 	- `resolution` - Optional, the quality at which the pipeline samples at. Higher resolutions = larger samples = lower quality = faster generation.
 		- At a resolution of 4, each sample would be 4x4 blocks.
 		- Higher resolutions will result in blocky looking biome placement.
@@ -18,7 +18,7 @@
 		  ...
 		  ```
 	- `blend` - Optional, warps the biome distribution, with the purpose of blending hard edges produced by increased resolutions.
-		- The blend [[config key]] allows for fuzzing the hard edges of blocky looking samples and contains two subkeys:
+		- The blend [[config parameter]] allows for fuzzing the hard edges of blocky looking samples and contains two subkeys:
 		- `amplitude` - A [[Float]] that determines the strength of the blending.
 		- `sampler` - A [[Noise Sampler]] that determines what the warping pattern is.
 		- Example:
@@ -85,7 +85,7 @@
 			            salt: 2
 			  ...
 			  ```
-- Here is an example of a simple pipeline setup which generates a mix of plains and forest, as well as some rare variants of those biomes, this would go in the [[Config Pack Manifest]] :
+- Here is an example of a simple pipeline setup which generates a mix of plains and forest, as well as some rare variants of those biomes, this would go in the [[Pack Manifest]] :
   ```yaml
   id: MY_PACK
   

@@ -1,1 +1,2 @@
 - Core addons are [addons](Addon) that are shipped with Terra by default, and provide *core* functionality.
+- You can find a list of all the core addons in the source code here: https://github.com/PolyhedralDev/Terra/tree/master/common/addons

@@ -1,2 +1,2 @@
 - In your [[Config pack root]], look for the file called `pack.yml`.
-- This file is your [[Config Pack Manifest]].
+- This file is your [[Pack Manifest]].

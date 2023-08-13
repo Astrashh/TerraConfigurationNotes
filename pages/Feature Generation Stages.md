@@ -1,6 +1,6 @@
 - Terra world generation happens in several distinct [[Generation Stages]]. Feature generation stages are a set of these world gen stages that occur after the [[Chunk Generator]] has created the initial terrain.
 - Feature generations stages are when [[Feature Config]]s are applied to the world.
-- You can define feature generation stages in the [[Config Pack Manifest]] like so:
+- You can define feature generation stages in the [[Pack Manifest]] like so:
   ```yaml
   ...
   
@@ -16,7 +16,7 @@
       type: FEATURE
   ```
 - The stages defined here will generate sequentially, meaning `the-first-feature-stage` will be applied first, then `another-feature-stage` will apply second.
-- After defining these feature stages, you can add [[Feature Config]]s to stages in each [[Biome Config]]s by listing them under the `features` [[config key]] like so:
+- After defining these feature stages, you can add [[Feature Config]]s to stages in each [[Biome Config]]s by listing them under the `features` [[config parameter]] like so:
   ```yaml
   ...
   
@@ -48,7 +48,7 @@
   ...
   
   ```
-- Ordering of feature generation stages is determined by how they are defined in the [[Config Pack Manifest]], so it does not matter how you order them inside your [[Biome Config]]s.
+- Ordering of feature generation stages is determined by how they are defined in the [[Pack Manifest]], so it does not matter how you order them inside your [[Biome Config]]s.
 - If features should generate in a certain order, they should be placed in separate stages, as ordering of features within the same stage does not reflect generation order.
 - When it comes to [[Config Inheritance]], note that each stage in a [[Biome Config]] is considered a separate parameter, e.g. the stages defined above would add two separate parameters:
   
