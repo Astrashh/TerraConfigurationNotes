@@ -40,6 +40,24 @@
       type: CONSTANT
       value: -1
   ```
+- Try out some of the samplers listed [here](http://terra.polydev.org/config/documentation/sampler/index.html) and see what results you get. Below are some examples. Try and figure out why they produce the results they do:
+- ```yaml
+  terrain:
+    sampler:
+      type: OPEN_SIMPLEX_2
+  ```\
+- ```yaml
+  terrain:
+    sampler:
+      type: FBM
+      sampler:
+        type: OPEN_SIMPLEX_2
+  ```
+- ```yaml
+  terrain:
+    sampler:
+      type: WHITE_NOISE
+  ```
 - To create flat terrain we will need to:
 	- Produce positive values (=solid) *below* a certain y level
 	- Produce negative values (=air) *above* that y level
