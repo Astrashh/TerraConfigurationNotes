@@ -110,7 +110,7 @@
     sampler:
       # 3D noise sampler goes here
   ```
-- Each block can either be 'solid' or 'air'. The *simplified process* of how a block is determined to be either solid or air is as follows:
+- **Each block can either be 'solid' or 'air'**. The *simplified process* of how a block is determined to be either solid or air is as follows:
 - The position of the block is sampled by the block's biome's `terrain.sampler`. The value of this sample is considered the block's 'density'.
   logseq.order-list-type:: number
 - If the block's density is greater than 0 (i.e. any positive number), then it is considered solid, and if not (i.e. any negative number and zero), it is considered air.

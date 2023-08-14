@@ -138,3 +138,4 @@
       type: COLOR
       color: "#000000" # Use black for area outside the image
   ```
+- {{embed [[Using Images For Terrain]]}}
