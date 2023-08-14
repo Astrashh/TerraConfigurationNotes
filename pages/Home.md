@@ -13,4 +13,4 @@
 - [[Pipeline Biome Provider]]
 - [[Working with images]]
 - [[Structure Handling]]
-- [[Shaping Terrain]]
+- [[Working With Terrain]]

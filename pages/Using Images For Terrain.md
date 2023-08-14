@@ -1,4 +1,4 @@
-- Example of an abstract [[Biome Config]] configured to generate terrain based on a grayscale heightmap image. See also: [[Shaping Terrain]] 
+- Example of an abstract [[Biome Config]] configured to generate terrain based on a grayscale heightmap image. See also: [[Working With Terrain]] 
   
   ```yaml
   id: TERRAIN_IMAGE

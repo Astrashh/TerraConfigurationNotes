@@ -32,7 +32,7 @@
             type: OPEN_SIMPLEX_2
             frequency: 0.01
   ```
-- It is highly recommended to make a new [[Abstract Config]] and use [[Config Inheritance]] like so:
+- It is highly recommended to make a new [[Abstract Config]] to make use of [[Config Inheritance]]:
   ```yaml
   id: TERRAIN_SIMPLE
   type: BIOME
@@ -59,7 +59,7 @@
             type: OPEN_SIMPLEX_2
             frequency: 0.01
   ```
-- Then in a [[Biome Config]] , use the `extends` [[config parameter]] to make use of the configured terrain in the biome:
+- To use this in a [[Biome Config]], use the `extends` [[config parameter]] like so:
   ```yaml
   id: MY_COOL_BIOME
   type: BIOME
@@ -98,7 +98,7 @@
           sampler: *heightmap
   ```
 -
-- ## How the terrain parameters control terrain shaping
+- ## How terrain samplers work
 - Here we will explain how to build up a config such as the provided example above, as well as explain why it works the way it does.
 - `NOISE_3D` requires each [[Biome Config]] to specify how the terrain should be shaped. This is configured via the `terrain.sampler` [[config parameter]], which is a 3D [[Noise Sampler]], and must be defined for a biome config for it to be valid.
 - Here is the skeleton of a config with `terrain.sampler` defined:
