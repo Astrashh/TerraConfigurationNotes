@@ -121,3 +121,20 @@
 	- ![image.png](../assets/image_1691716937231_0.png){:height 150, :width 150}
 - but zooming in and looking at the actual pixel color between the two, it could end up matching something like a snowy biome which has been configured to use a grey color, and then you end up unintentionally sandwiching a snowy biome between your desert and ocean:
 	- ![image.png](../assets/image_1691716945469_0.png){:height 150, :width 150}
+- ## Using images to generate noise
+- Images can be used to provide values where [[Noise Sampler]]s are used.
+- The `CHANNEL` [[Noise Sampler]] lets you map the channels of colors produced by a [[Color Sampler]] to noise values.
+- Here is an example of the `CHANNEL` [[Noise Sampler]]:
+  ```yaml
+  type: CHANNEL
+  channel: GRAYSCALE # Other options are RED, GREEN, BLUE, and ALPHA
+  color-sampler:
+    type: SINGLE_IMAGE # Only gen a single image rather tiling
+    align: CENTER # Makes center of image at 0,0
+    image:
+      type: BITMAP
+      path: images/myimage.png
+    outside-sampler: # What to use outside the image
+      type: COLOR
+      color: "#000000" # Use black for area outside the image
+  ```
