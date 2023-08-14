@@ -32,7 +32,7 @@
             type: OPEN_SIMPLEX_2
             frequency: 0.01
   ```
-- It is highly recommended to put this inside an [[Abstract Config]] and use [[Config Inheritance]] like so:
+- It is highly recommended to make a new [[Abstract Config]] and use [[Config Inheritance]] like so:
   ```yaml
   id: TERRAIN_SIMPLE
   type: BIOME
